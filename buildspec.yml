@@ -6,7 +6,7 @@ phases:
       - echo Entered the install phase...
       - sudo yum update -y
       - sudo yum install maven -y
-      - sudo yum install jdk -y
+      - sudo yum install java -y
       - sudo yum install python -y
     finally:
       - echo This always runs even if the update or install command fails 
